@@ -10,57 +10,37 @@ const ProjectList = () => (
   <Section
     title={
       <>
-        Recent <GradientText>Projects</GradientText>
+        Upcoming <GradientText>Projects</GradientText>
       </>
     }
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        name="Brain Trust Wallet"
+        description="Now you can have a space to safely store your BWT (Brain Token)!"
         link="/"
         img={{
-          src: '/assets/images/project-web-design.png',
-          alt: 'Project Web Design',
+          src: '/assets/images/wallet-svgrepo-com.svg',
+          alt: 'Wallet Release',
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.FUCHSIA}>2022</Tags>
+            <Tags color={ColorTags.LIME}>Funded</Tags>
+            <Tags color={ColorTags.TEAL}>In Development</Tags>
           </>
         }
       />
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        name="Brain Mobile App"
+        description="Mobile Application for Brain teasers and puzzles"
         link="/"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
+        img={{ src: '/assets/images/smartphone.svg', alt: 'Mobile App' }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
-          </>
-        }
-      />
-      <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
-        category={
-          <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.VIOLET}>2023</Tags>
+            <Tags color={ColorTags.EMERALD}>Seeking funding</Tags>
+            <Tags color={ColorTags.YELLOW}>Planning</Tags>
           </>
         }
       />

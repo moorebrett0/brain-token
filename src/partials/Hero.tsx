@@ -10,55 +10,53 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          <GradientText>Brain</GradientText> 🧠
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
+          Brain was created by{' '}
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://brilliancenw.com"
+          >
+            nerds
+          </a>
+          , for{' '}
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://act.alz.org/"
+          >
+            research.
           </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
+          We invite you to collect{' '}
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://etherscan.io/token/0x2788F04C4b319Fc620E35A878E7Fbe0c6B1064D5"
+          >
+            Brain Token
           </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          to participate in our brain teasers and puzzles.
         </>
       }
       avatar={
         <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          className="w-90 h-80"
+          src="/assets/images/brain.png"
           alt="Avatar image"
           loading="lazy"
         />
       }
       socialButtons={
         <>
-          <a href="/">
+          <a href="https://twitter.com/the_brain_token">
             <HeroSocial
               src="/assets/images/twitter-icon.png"
               alt="Twitter icon"
             />
           </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/linkedin-icon.png"
-              alt="Linkedin icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
-            />
+          <a href="https://discord.gg/BcyT2DEcr4">
+            <HeroSocial src="/assets/images/discord.svg" alt="Discord icon" />
           </a>
         </>
       }
