@@ -5,7 +5,7 @@ module.exports = (shipit) => {
 
   shipit.initConfig({
     default: {
-      deployTo: '/var/www/',
+      deployTo: '/var/www/brain',
       repositoryUrl: 'git@github.com:moorebrett0/brain-token.git',
       key: '~/.ssh/deploy.rsa',
     },
